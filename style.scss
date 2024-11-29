@@ -13,8 +13,23 @@ window.Bar {
         margin: 8px;
     }
 
-    button {
-        border-radius: 8px;
-        margin: 2px;
+    .main-box {
+        margin: 8px;
+        padding: 8px;
+        border: 2px solid black;
+        // background: transparent;
+        // &:not(:empty){
+        //     background: #28182c;
+        // }
+        transition: background 0.3s ease;
+        // min-width: 180px;
     }
+
+    // label {
+    //     text-align: right;
+    // }
+    // box {
+    //     border: 2px solid black;
+    // }
 }
+
